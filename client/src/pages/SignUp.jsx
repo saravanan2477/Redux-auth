@@ -29,6 +29,8 @@ export default function SignUp() {
       setLoading(false);
       if (data.success === false) {
         setError(true);
+        
+        
         return;
       }
       navigate('/sign-in');
